@@ -16,7 +16,7 @@ public class TwoSum {
                 System.out.println(i);
             }
 
-            System.out.println("Test Commit");
+           // System.out.println("Test Commit");
 
         }
     }
