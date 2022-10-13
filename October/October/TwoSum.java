@@ -4,42 +4,27 @@ import java.util.Scanner;
 
 public class TwoSum {
     public static void main(String[] args) {
-        try(Scanner in = new Scanner(System.in)){
+        try (Scanner in = new Scanner(System.in)) {
 
-            int array [] = {10,20,30,40};
-
-            int targetSum  =in.nextInt();
-
-            int result [] = twoSum(array, targetSum);
+            int array[] = {10, 20, 30, 40};
+            int targetSum = in.nextInt();
+            int result[] = twoSum(array, targetSum);
 
             for (int i : result) {
                 System.out.println(i);
             }
-
-           // System.out.println("Test Commit");
-            System.out.println("hello github");
-
         }
     }
-    public static int[] twoSum (int array[],int targetSum){
+
+    public static int[] twoSum(int array[], int targetSum) {
         for (int i = 0; i < array.length; i++) {
-                
-            for (int j = i+1; j < array.length; j++) {
-                if(array[i]+array[j]==targetSum) {
-                    return new int [] {i,j};
+
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[i] + array[j] == targetSum) {
+                    return new int[]{i, j};
                 }
             }
         }
         return null;
-
     }
-    
 }
-
-/*
- *  10 20 30 40
- * target = 70
- * 30+40=70;
- * 20 40 10
- * retun 0;
- */
