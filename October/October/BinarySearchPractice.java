@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BinarySearchPractice {
 
-    static int biSearch(int array[], int lengthArray, int target) {
+    static int binarySearch(int array[], int lengthArray, int target) {
         int start = 0;
         int end = lengthArray - 1;
 
@@ -30,7 +30,7 @@ public class BinarySearchPractice {
 
         int array[]={10,20,30,40,50,60,70,80,90};
         int target = in.nextInt();
-        int position = biSearch(array,array.length,target);
+        int position = binarySearch(array,array.length,target);
 
         if(position==-1)
             System.out.println("Not Found");
