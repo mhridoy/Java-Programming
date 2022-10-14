@@ -2,7 +2,7 @@ package October.Pattern_assignments;
 
 import java.util.Scanner;
 
-public class Pattern_02 {
+public class Pattern_06_07 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
