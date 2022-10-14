@@ -8,6 +8,7 @@ public class Pattern_05 {
             }
             System.out.println();
         }
+        
         for (int i = 1; i <= 5; i++) {
             for (int j = 4; j >= i; j--) {
                 System.out.print("*");
