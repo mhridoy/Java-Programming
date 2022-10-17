@@ -18,7 +18,7 @@ public class bafana_bafana {
 
             if(result==0)
                 System.out.println("Case " + i+ ": " + Players);
-            else
+            else  
                 System.out.println("Case " + i+ ": " + Math.abs(result));
 
         }

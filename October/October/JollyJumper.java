@@ -20,6 +20,7 @@ public class JollyJumper {
                     array[i] = in.nextInt();
                 }
 
+
                 // Calculate absulute differeces
 
                 int tempArray [] = new int [n];
