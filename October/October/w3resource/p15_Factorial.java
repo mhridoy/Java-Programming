@@ -7,9 +7,8 @@ public class p15_Factorial {
 
         for (int i = 1; i <= 5; i++) {
             factorial = factorial * i;
-            System.out.println(factorial);
-
+            
         }
-
+        System.out.println(factorial);
     }
 }
