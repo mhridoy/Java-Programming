@@ -3,11 +3,11 @@ package October.w3resource;
 
 import java.util.Scanner;
 
-public class p04_problem {
+public class p04 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int sum = 0;
-        float avg ;
+        float avg =0;
         System.out.println("Input the 10 numbers : ");
 
         for (int i = 1; i <= 10; i++) {
@@ -16,14 +16,14 @@ public class p04_problem {
 
             System.out.println("Number - "+ i+" : "+ n);
             sum = sum+n;
-            avg = sum/10;
+            avg = (float)sum/10;
 
           //  System.out.println(sum);
           //  System.out.println(avg);
         }
       //avg = sum/10;
         System.out.println("The sum of 10 numbers are : "+ sum);
-       // System.out.println("The Average is : " + avg);
+        System.out.println("The Average is : " + avg);
     }
 }
-//12,13,14
+//8,12,13,16,17,18,19,21
