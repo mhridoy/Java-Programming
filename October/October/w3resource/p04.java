@@ -26,4 +26,4 @@ public class p04 {
         System.out.println("The Average is : " + avg);
     }
 }
-//8,12,13,16,17,18,19,21
+//8,12,16,17,18,19,21
