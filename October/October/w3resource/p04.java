@@ -8,7 +8,7 @@ public class p04 {
         Scanner in = new Scanner(System.in);
         int sum = 0;
         float avg =0;
-        System.out.println("Input the 10 numbers : ");
+        System.out.println("Input 10 numbers : ");
 
         for (int i = 1; i <= 10; i++) {
 
@@ -26,4 +26,4 @@ public class p04 {
         System.out.println("The Average is : " + avg);
     }
 }
-//8,12,16,17,18,19,21
+//
