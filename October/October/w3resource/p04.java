@@ -26,4 +26,3 @@ public class p04 {
         System.out.println("The Average is : " + avg);
     }
 }
-//
