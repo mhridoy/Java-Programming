@@ -16,6 +16,7 @@ public class armstrongLoop {
             num = num / 10;//153/10=15, 15/10=1, 1/10=0
 
         }
+        
         if (temp == sum)
             System.out.println(temp + " is armstrong number");
         else
