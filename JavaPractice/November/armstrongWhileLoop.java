@@ -2,7 +2,7 @@ package November;
 
 import java.util.Scanner;
 
-public class armstrongNumber {
+public class armstrongWhileLoop {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
@@ -15,6 +15,7 @@ public class armstrongNumber {
             int rem = num % 10;
             num = vf1;
             sum = sum + (rem * rem * rem);
+
         }
 
         if (temp == sum)
