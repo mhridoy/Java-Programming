@@ -10,7 +10,7 @@ public class p01 {
 
         int num= in.nextInt();
 
-        int vf1=num/10;
+        int vf1=num/10;  
         int thirdNum=num%10;
 
         int vf2=vf1/10;
