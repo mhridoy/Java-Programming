@@ -1,6 +1,6 @@
 package November;
 
-public class Stringp02 {
+public class StringPractice02 {
     public static void main(String[] args) {
         String name= "shahnaz";
 
