@@ -1,4 +1,4 @@
-package November;
+package November.String;
 
 public class StringPractice02 {
     public static void main(String[] args) {

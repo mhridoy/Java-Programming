@@ -1,4 +1,4 @@
-package November;
+package November.String;
 
 public class StringPratice01 {
     public static void main(String[] args) {
@@ -39,6 +39,6 @@ public class StringPratice01 {
 
         System.out.println();
         System.out.println((char) 65);
-        
+
     }
 }
