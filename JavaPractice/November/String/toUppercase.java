@@ -1,6 +1,6 @@
 package November.String;
 
-public class StringPractice02 {
+public class toUppercase {
     public static void main(String[] args) {
         String name= "shahnaz";
 
@@ -8,7 +8,5 @@ public class StringPractice02 {
             int poition = name.charAt(i)-32;
             System.out.print((char) poition);
         }
-
-
     }
 }
