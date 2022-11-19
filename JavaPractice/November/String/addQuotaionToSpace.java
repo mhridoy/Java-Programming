@@ -1,6 +1,6 @@
 package November.String;
 
-public class p04 {
+public class addQuotaionToSpace {
     public static void main(String[] args) {
         String str = "i like football";
 
@@ -8,9 +8,9 @@ public class p04 {
             int position= str.charAt(i);
 
             if(i==1)
-                position=str.charAt(1)+2;
+                position=str.charAt(i)+2;
             if(i==6)
-                position=str.charAt(6)+2;
+                position=str.charAt(i)+2;
             System.out.print((char) position);
         }
 
