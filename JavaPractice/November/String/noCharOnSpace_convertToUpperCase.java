@@ -1,6 +1,6 @@
 package November.String;
 
-public class insertCh {
+public class noCharOnSpace_convertToUpperCase {
     public static void main(String[] args) {
 
         String str = "i like photography";
@@ -10,7 +10,7 @@ public class insertCh {
             int position=str.charAt(i)-32;
 
             if(i==1)
-               position=str.charAt(1);
+               position=str.charAt(i);
 
             if(i==6)
                 position=str.charAt(6);
