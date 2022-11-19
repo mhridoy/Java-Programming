@@ -10,8 +10,9 @@ public class insertCh {
             int position=str.charAt(i)-32;
 
             if(i==1)
-                position=i+31;
-            
+              //  position=str.charAt(1)+31;
+         //   position=i+31;
+
             System.out.print((char)position);
 
         }
