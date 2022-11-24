@@ -3,7 +3,7 @@ package November.String;
 
 import java.util.Arrays;
 
-public class GFG
+public class LongestCommonPrefix
 {
     public String longestCommonPrefix(String[] a)
     {
@@ -35,7 +35,7 @@ public class GFG
     /* Driver Function to test other function */
     public static void main(String[] args)
     {
-        GFG gfg = new GFG();
+        LongestCommonPrefix gfg = new LongestCommonPrefix();
         String[] input = {"geeksforgeeks", "geeks", "geek", "geezer"};
         System.out.println( "The longest Common Prefix is : " +
                 gfg.longestCommonPrefix(input));
