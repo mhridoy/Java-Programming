@@ -8,15 +8,16 @@ public class CountWordsinString {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter you String:");
         String str = in.nextLine();
-        int count = 1;
-        for (int i = 0; i <str.length() ; i++) {
+//        int count = 1;
+//        for (int i = 0; i <str.length() ; i++) {
+//            if(str.charAt(i)== ' ' )
+//            {
+//                count++;
+//            }
+//        }
+       // System.out.println("Number of words in this String is = "+count);
 
-            if(str.charAt(i)== ' ' )
-            {
-                count++;
-            }
-
-        }
-        System.out.println("Number of words in this String is = "+count);
+        String [] s2 = str.split(" ");
+        System.out.println("Number of words in this String is = "+ s2.length);
     }
 }
