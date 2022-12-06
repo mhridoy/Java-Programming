@@ -1,6 +1,6 @@
 package November;
 
-public class digitMul {
+public class DigitMul {
     public static void main(String[] args) {
         int num= 15894;
 

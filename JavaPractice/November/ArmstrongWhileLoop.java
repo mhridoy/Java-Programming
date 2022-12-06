@@ -2,7 +2,7 @@ package November;
 
 import java.util.Scanner;
 
-public class armstrongWhileLoop {
+public class ArmstrongWhileLoop {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);

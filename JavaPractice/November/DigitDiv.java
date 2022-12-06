@@ -1,6 +1,6 @@
 package November;
 
-public class digitDiv {
+public class DigitDiv {
     public static void main(String[] args) {
 
         int num=26;
