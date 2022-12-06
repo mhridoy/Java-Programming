@@ -3,7 +3,7 @@ package November.String;
 public class StrEqual {
 
     public static void main(String[] args) {
-        String str1 = "hello";
+       String str1 = "hello";
         String str2 = new String(str1);
         String str3 = "hello";
         if (str1 == str2) { // if (str1.equals(str2))
@@ -16,5 +16,10 @@ public class StrEqual {
         } else {
             System.out.println("str1 and str3 not equal");
         }
+
+        String s1 = "abc";
+        StringBuffer s2 = new StringBuffer(s1);
+        System.out.println(s1.equals(s2));
+
     }
 }
