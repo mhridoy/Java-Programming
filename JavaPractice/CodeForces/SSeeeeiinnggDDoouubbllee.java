@@ -12,9 +12,11 @@ public class SSeeeeiinnggDDoouubbllee {
             String str = in.next();
             String strTemp = "";
 
-            for (int j = 0; j < str.length(); j++) {
-                strTemp = str.charAt(j) + strTemp;
+            for (int j = str.length()-1; j >= 0; j--) {
+             //   strTemp = str.charAt(j) + strTemp;
+                strTemp=strTemp+str.charAt(j);
             }
+            System.out.println(strTemp);
             String palindrom = str + strTemp;
             System.out.println(palindrom);
         }
