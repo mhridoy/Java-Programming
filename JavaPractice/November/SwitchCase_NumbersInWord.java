@@ -8,13 +8,15 @@ public class SwitchCase_NumbersInWord {
         System.out.println("Enter a number");
         int n = scn.nextInt();
         String str = "";
+        String str2 = "";
         while (n > 0) {
-            int r = n % 10;
+            int rem = n % 10;
             // System.out.println(r);
             n = n / 10;
-            str = r + str;
+            str =rem+str;
+
         }
-        // System.out.println(str);
+         System.out.println(str);
 
         for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
