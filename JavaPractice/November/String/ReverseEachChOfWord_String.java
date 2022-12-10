@@ -1,6 +1,6 @@
 package November.String;
 
-public class ReverseEachWord_String {
+public class ReverseEachChOfWord_String {
     public static void main(String[] args) {
         String str = "World is beautiful";
         String strRev = "";
