@@ -11,7 +11,6 @@ public class SwitchCase_NumbersInWord {
 
         while (n > 0) {
             int rem = n % 10;
-            
             n = n / 10;
             str =rem+str;
 
