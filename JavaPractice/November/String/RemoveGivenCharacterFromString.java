@@ -5,8 +5,6 @@ public class RemoveGivenCharacterFromString {
         String word = "Java";
         //replacing character in this String
         String replaced = word.replace("J", "K");
-        System.out.println("Replacing character in String");
-        System.out.println("Original String before replace : " + word);
         System.out.println("Replaced String : " + replaced);
 
         //replacing substring on String in Java
