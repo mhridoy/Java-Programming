@@ -1,6 +1,6 @@
 package December.ArrayPractice;
 
-public class reverseCharArray {
+public class reverseCharStringIntArray {
 
     public static void main(String[] args) {
         char c[] = {'a', 'b', 'c', 'd', 'e'};
