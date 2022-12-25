@@ -14,6 +14,10 @@ public class reverseCharStringIntArray {
             System.out.print(rev[i]);
         }
         System.out.println();
+        for (int i = c.length-1; i >=0 ; i--) {
+            System.out.print(c[i]);
+        }
+        System.out.println();
 
         String str[] = {"w", "e", "_", "a", "r", "e","_","H","u","m","a","n"};
         String revStr[] = new String[str.length];
@@ -25,7 +29,10 @@ public class reverseCharStringIntArray {
         for (int i = 0; i < index1; i++) {
             System.out.print(revStr[i]);
         }
-
+        System.out.println();
+        for (int i = str.length-1; i >=0 ; i--) {
+            System.out.print(str[i]);
+        }
         System.out.println();
         int arr[] = {12, 23, 45, 67, 78, 90};
         int index2 = 0;
