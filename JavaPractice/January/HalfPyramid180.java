@@ -1,5 +1,5 @@
 package January;
-    public class Half_pyramid180 {
+    public class HalfPyramid180 {
         public static void main(String[] args) {
             int n = 4;
             for(int i=1; i<=n; i++) {
