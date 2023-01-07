@@ -1,6 +1,6 @@
 package January;
 
-public class StringContainsAlphabetsRegx {
+public class StrLetterRegx {
     public static boolean isStringContainsAlpabets(String str) {
         return ((str !=null)
                 && (!str.equals("")
