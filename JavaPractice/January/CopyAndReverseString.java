@@ -16,7 +16,6 @@ public class CopyAndReverseString {
         System.out.println("Original String  >> " + org_str);
         System.out.print("Copied String >> ");
         System.out.println(Copy);
-
         System.out.print("Reversed String >> ");
         System.out.println(Reverse);
     }
