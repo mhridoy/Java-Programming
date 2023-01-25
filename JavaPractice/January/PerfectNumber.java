@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class PerfectNumber {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        // Scanner input = new Scanner(System.in);
 
-        int num = input.nextInt();
+        int num = 6;
 
         int sum = 0;
 
@@ -15,12 +15,12 @@ public class PerfectNumber {
             if (num % i == 0) {
                 sum = sum + i;
             }
+        }
 
-            if (sum == num) {
-                System.out.println("Perfect");
-            } else {
-                System.out.println("Not Perfect");
-            }
+        if (sum == num) {
+            System.out.println("Perfect");
+        } else {
+            System.out.println("Not Perfect");
         }
     }
 }
