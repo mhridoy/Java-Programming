@@ -5,7 +5,7 @@ public class CompoundInterest {
         double principle=10000;
         double rate=0.05;
         int time=5;
-        double interest = principle * Math.pow(1 +rate, time) - principle;
+        double interest = principle*Math.pow(1+rate,time)-principle;
         System.out.println("Interest is: " +
                 interest);
 
