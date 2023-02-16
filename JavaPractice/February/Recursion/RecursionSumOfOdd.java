@@ -1,9 +1,9 @@
-package February;
+package February.Recursion;
 
 public class RecursionSumOfOdd {
     public static void main(String[] args) {
         int i=10;
-        System.out.println(sumOffOdd(1,i));
+        System.out.println(sumOffOdd(1,i));//25
     }
     public static int sumOffOdd(int lower,int upper){
 
