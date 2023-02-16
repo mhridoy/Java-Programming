@@ -1,4 +1,4 @@
-package February;
+package February.Recursion;
 public class oddEvenRecursion {
     public static void main(String[] args) {
         int n = 1;
