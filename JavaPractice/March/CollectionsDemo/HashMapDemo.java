@@ -21,5 +21,8 @@ public class HashMapDemo {
         System.out.println(m);
         System.out.println(m.containsKey(102));//true
         System.out.println(m.containsKey(103)); //false
+        System.out.println(m.containsValue("Apple")); //True
+        System.out.println(m.containsValue("Oat")); //False
+        System.out.println(m.isEmpty()); //false
     }
 }
