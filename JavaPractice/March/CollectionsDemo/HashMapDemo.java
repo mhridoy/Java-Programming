@@ -35,7 +35,20 @@ public class HashMapDemo {
         for(Object i:m.keySet()){
             System.out.println(i);
         }
-        //System.out.println(m.values());
+        System.out.println(m.values());
+
+        for (Object i: m.values()
+             ) {
+            System.out.println(i);
+        }
+
+        System.out.println( " Key + value");
+        for (Object i: m.keySet()) {
+
+            System.out.println(i + " " + m.get(i));
+
+        }
+
         //System.out.println(m.entrySet());
 
 
