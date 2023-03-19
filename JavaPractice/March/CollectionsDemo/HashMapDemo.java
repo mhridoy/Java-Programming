@@ -12,7 +12,10 @@ public class HashMapDemo {
         m.put(103,"Oat");
         m.put(104,"Orange");
         m.put(102,"Apple");
+        m.put(105,"Apple");
 
         System.out.println(m);
+
+        System.out.println(m.get(104));
     }
 }
