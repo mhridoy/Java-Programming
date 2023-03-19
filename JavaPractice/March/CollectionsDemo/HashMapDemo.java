@@ -4,8 +4,8 @@ import java.util.HashMap;
 
 public class HashMapDemo {
     public static void main(String[] args) {
-        HashMap m = new HashMap<>();
-        HashMap<Integer,String> hm = new HashMap<>();
+      //  HashMap m = new HashMap<>();
+        HashMap<Integer,String> m = new HashMap<>();
 
         m.put(101,"Bread");
         m.put(102,"Banana");
@@ -26,8 +26,19 @@ public class HashMapDemo {
         System.out.println(m.isEmpty()); //false
 
         System.out.println(m.keySet());
-        System.out.println(m.values());
-        System.out.println(m.entrySet());
+        //Entry Interface
+
+        for(int i: m.keySet()){
+            System.out.println(i);
+        }
+
+
+        //System.out.println(m.values());
+        //System.out.println(m.entrySet());
+
+
+
+
 
     }
 }
