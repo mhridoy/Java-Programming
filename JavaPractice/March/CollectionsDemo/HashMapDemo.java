@@ -24,5 +24,10 @@ public class HashMapDemo {
         System.out.println(m.containsValue("Apple")); //True
         System.out.println(m.containsValue("Oat")); //False
         System.out.println(m.isEmpty()); //false
+
+        System.out.println(m.keySet());
+        System.out.println(m.values());
+        System.out.println(m.entrySet());
+
     }
 }
