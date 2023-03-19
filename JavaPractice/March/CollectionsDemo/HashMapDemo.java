@@ -1,11 +1,12 @@
 package March.CollectionsDemo;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class HashMapDemo {
     public static void main(String[] args) {
-        HashMap m = new HashMap<>();
-        //HashMap<Integer,String> m = new HashMap<>();
+       // HashMap m = new HashMap<>();
+        HashMap<Integer,String> m = new HashMap<>();
 
         m.put(101,"Bread");
         m.put(102,"Banana");
@@ -19,6 +20,7 @@ public class HashMapDemo {
         System.out.println(m.get(104));
         m.remove(103);
         System.out.println(m);
+        m.put(103,"Apricot");
         System.out.println(m.containsKey(102));//true
         System.out.println(m.containsKey(103)); //false
         System.out.println(m.containsValue("Apple")); //True
@@ -26,11 +28,11 @@ public class HashMapDemo {
         System.out.println(m.isEmpty()); //false
 
         System.out.println(m.keySet());
-        //Entry Interface
 
 //        for(int i: m.keySet()){
 //            System.out.println(i);
 //        }
+
         System.out.println();
         for(Object i:m.keySet()){
             System.out.println(i);
@@ -49,7 +51,13 @@ public class HashMapDemo {
 
         }
 
-        //System.out.println(m.entrySet());
+        //Entry Methods
+        System.out.println(m.entrySet());
+
+        for (Map.Entry entry : m.entrySet()) {
+            System.out.println(entry);
+
+        }
 
 
 
