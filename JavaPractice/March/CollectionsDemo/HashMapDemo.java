@@ -19,5 +19,7 @@ public class HashMapDemo {
         System.out.println(m.get(104));
         m.remove(103);
         System.out.println(m);
+        System.out.println(m.containsKey(102));//true
+        System.out.println(m.containsKey(103)); //false
     }
 }
